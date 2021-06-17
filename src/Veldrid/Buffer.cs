@@ -10,9 +10,9 @@ namespace Veldrid
     public abstract class DeviceBuffer : DeviceResource, BindableResource, MappableResource, IDisposable
     {
         /// <summary>
-        /// The total capacity, in bytes, of the buffer. This value is fixed upon creation.
+            /// The total capacity, in bytes, of the buffer. This value is fixed upon creation.
         /// </summary>
-        public abstract uint SizeInBytes { get; }
+            public abstract uint SizeInBytes { get; }
 
         /// <summary>
         /// A bitmask indicating how this instance is permitted to be used.
